@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood_flutter_clone/app/views/content/content_page.dart';
     
 class App extends StatelessWidget {
   
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
         
         primarySwatch: Colors.red,
       ),
-      home: Container(),
+      home: ContentPage(),
     );
   }
 }
